@@ -1,0 +1,18 @@
+{
+  "name": "axe-challenge",
+  "version": "1.0.0",
+  "description": "Challenge #2 for the Senior Solutions Engineer role at Deque Systems. This Challenge is to create a JavaScript test using Axe WebDriverJS to test the accessibility of a Deque Systems website.",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "jasmine init",
+    "test": "jasmine test.spec.js"
+  },
+  "keywords": [],
+  "author": "Jonathan Allen allen.jonathan.nh@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "@axe-core/webdriverjs": "^4.8.5",
+    "jasmine": "^5.1.0",
+    "selenium-webdriver": "^4.18.1"
+  }
+}

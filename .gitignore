@@ -1,0 +1,19 @@
+# Node.js
+node_modules/
+
+# Selenium WebDriver
+chromedriver.log
+geckodriver.log
+
+# Test results and logs
+Results/
+
+# IDE and editor files
+.vscode/
+.idea/
+
+# Dependency directory
+dependencies/
+
+# Logs
+*.log
